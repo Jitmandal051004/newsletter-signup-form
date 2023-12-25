@@ -1,0 +1,110 @@
+:root{
+    --Tomato: hsl(4, 100%, 67%);
+    --DarkSlateGrey: hsl(234, 29%, 20%);
+    --CharcoalGrey: hsl(235, 18%, 26%);
+    --Grey: hsl(231, 7%, 60%);
+    --White: hsl(0, 0%, 100%);
+}
+
+body{
+    background: var(--CharcoalGrey);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.signUpBody{
+    background: var(--White);
+    height: 590px;
+    width: 900px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rightImg img{
+    height: 530px;
+    width: 420px;
+}
+
+.leftText{
+    height: 520px;
+    width: 410px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 0px 60px;
+    color: var(--DarkSlateGrey);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+h1{
+    font-size: 55px;
+    font-weight: 700;
+    margin: 20px 0px 0px 0px;
+}
+
+ul{
+    line-height: 1.75;
+    list-style-type: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+li::before{
+    content: '';
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    background-image: url(assets/images/icon-list.svg);
+    margin-right: 5px;
+}
+
+li{
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.emailInput{
+    font-weight: 700;
+    font-size: 13px;
+    margin: 20px 0px 15px 0px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+input[type="email"]{
+    height: 50px;
+    width: 360px;
+    border-radius: 5px;
+    box-shadow: none;
+    border: 2px solid #ccc;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+.subscribe{
+    height: 56px;
+    width: 390px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    background: var(--DarkSlateGrey);
+    color: var(--White);
+}
+
+.subscribe:hover{
+    color: var(--DarkSlateGrey);
+    background: var(--Grey);
+    cursor: pointer;
+}
+
