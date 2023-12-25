@@ -80,6 +80,18 @@ li{
     justify-content: space-evenly;
 }
 
+.emailInput .text{
+    display: flex;
+    justify-content: space-between;
+    width: 383px;
+    margin-bottom: 5px;
+}
+
+.errorMsg{
+    color: var(--Tomato);
+    display: none;
+}
+
 input[type="email"]{
     height: 50px;
     width: 360px;
@@ -100,6 +112,7 @@ input[type="email"]{
     font-weight: 700;
     background: var(--DarkSlateGrey);
     color: var(--White);
+    transition-duration: 0.75s;
 }
 
 .subscribe:hover{
@@ -108,3 +121,51 @@ input[type="email"]{
     cursor: pointer;
 }
 
+/*success message*/
+
+.successMsg{
+    height: 375px;
+    width: 375px;
+    border-radius: 30px;
+    background: var(--White);
+    color: var(--DarkSlateGrey);
+    padding: 45px 60px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.successMsg img{
+    height: 50px;
+    width: 50px;
+}
+
+.successMsg h1{
+    font-weight: 700;
+    /* margin: 5px 0px; */
+}
+
+.successMsg p{
+    /* margin: 5px 0px; */
+    line-height: 1.5;
+}
+
+.dismissBtn{
+    display: flex;
+    height: 56px;
+    width: 375px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    background: var(--DarkSlateGrey);
+    color: var(--White);
+    transition-duration: 0.75s;
+}
+
+.dismissBtn:hover{
+    color: var(--DarkSlateGrey);
+    background: var(--Grey);
+    cursor: pointer;
+}
