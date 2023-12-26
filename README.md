@@ -14,7 +14,6 @@ This is a solution to the [Newsletter sign-up form with success message challeng
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -32,12 +31,15 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](assets/images/Screenshot-nonactive%20state.png)
+![](assets/images/Screenshot%20active%20state.png)
+![](assets/images/Screenshot%20error%20state.png)
+![](assets/images/Screenshot%20thankustate.png)
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
-- [Live Site URL](https://your-live-site-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/newslettersignupform--EWVQoS_ib)
+- [Live Site URL](https://jitmandal051004.github.io/newsletter-signup-form/)
 
 ## My process
 
